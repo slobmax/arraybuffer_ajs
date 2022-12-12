@@ -1,0 +1,32 @@
+{
+  "name": "arraybuffer_ajs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "lint": "eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slobmax/arraybuffer_ajs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/slobmax/arraybuffer_ajs/issues"
+  },
+  "homepage": "https://github.com/slobmax/arraybuffer_ajs#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.20.5",
+    "@babel/preset-env": "^7.20.2",
+    "babel-jest": "^29.3.1",
+    "eslint": "^8.29.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "jest": "^29.3.1"
+  },
+  "dependencies": {
+    "core-js": "^3.26.1"
+  }
+}
